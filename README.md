@@ -2,6 +2,26 @@
 
 A complete PyTorch implementation of a Variational Autoencoder with latent space exploration capabilities.
 
+## 📊 Results
+
+### Latent Space Visualization
+The model clusters similar digits together in 2D space:
+
+![Latent Space](images/latent_space.png)
+
+### Generated Manifold
+Smooth transitions between digit types:
+
+![Manifold](images/manifold.png)
+
+### Reconstruction Quality
+Original (top) vs Reconstructed (bottom):
+
+![Reconstructions](images/reconstructions.png)
+
+### Training Progress
+![Training Curves](images/training_curves.png)
+
 ## 🎯 What is a VAE?
 
 A Variational Autoencoder is a generative model that:
